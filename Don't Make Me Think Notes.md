@@ -188,3 +188,47 @@ Average one-hour test session stipend is $50-$100 for "average" Web users
 * You have an existing account with the email `oontz@example.com` and the password `correcthorsebatterystaple`. You're on the project, "Taylor Swift You Will Be Mine".
 	* Create an [INSTRUMENT] track and upload it to the project
 
+### Steps for the test:
+1. Welcome (4 minutes)
+2. The Questions (2 minutes)
+3. The Home page tour (3 minutes)
+4. The tasks (35 minutes)
+5. Probing (5 minutes
+6. Wrapping up (5 minutes)
+
+
+#### The debriefing:
+
+Main takeaway, **FOCUS RUTHLESSLY ON FIXING THE MOST SERIOUS PROBLEMS FIRST**
+
+## Chapter 10: Mobile: It's not just a city in Alabama anymore
+
+TKTK [TO READ LATER]
+
+## Chapter 11: Usability as common courtesy
+
+## Chapter 12: Accessibility and you
+
+Four things you can do right now:
+
+1. Fix the usability problems that confuse everyone
+  * If something confuses most people who use your site, it's almost certain to confuse users who have accessibility issues.
+2. Read an article
+  * Mary Theofanos and Janic (Ginny) Redish watched 16 blind users using screen readers to do a number of tasks on a variety of sites and reported what they observed in an article titled "Guidelines for Accessible and Usable Web Sites: Observing Users Who Work with Screen Readers"
+  * That article can be found [here](http://redish.net/images/stories/PDF/InteractionsPaperAuthorsVer.pdf).
+3. Read a book
+  * A Web for Everyone: Desigining Accessibe User Experiences
+  * Web Accessibility: Web Standards and REgulatory Compliance
+4. Go for the low-hanging fruit
+  * Add appropriate alt text to ever image
+  * Use headings correctly
+  * Make your forms work with screen readers
+  * Put a "Skip to Main Content" link at the beginning of each page
+  * Make all content accessible by keyword (Remember, not everyone can use a mouse)
+  * Create a significant contrast between your text and background
+  * Use an accessible template
+
+## Chapter 13: Guide for the perplexed
+
+
+
