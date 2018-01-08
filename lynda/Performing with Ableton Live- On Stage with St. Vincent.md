@@ -88,3 +88,18 @@ MIDI track with chain selector automation envelope. Clips like this that have no
 
 ## Using a macro to conserve CPU and select song presets
 
+> The chain selector of the master rack is in charge of routing incoming MIDI to the chain for the current song. You can see that if you watch these input meters as I move the chain selector and hear the sounds change. However, even though the rest of the racks aren't receiving MIDI the devices in the entire set are still active. They don't consume as much power as when they're being used, but they still waste lots of precious processing cycles just by being on.
+
+What you really want when selecting a song is two things:
+
+1. Enable MIDI to the appropriate chain with the chain selector
+2. Activate the chains devices by using the racks device activator button in its upper left corner
+
+Whenever more than one action needs to be performed on a master rack, you can use that rack's "Macro controls"
+
+![macro image](images/macro.png)
+
+Replace the chain selector with the Rack Activator macro. This will do the chain selector's job and save CPU resources by enabling the track racks only when they're needed.
+
+## Automating song presets at song start
+
