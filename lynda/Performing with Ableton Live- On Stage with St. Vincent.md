@@ -73,3 +73,18 @@ Unless the singer has perfect pitch, there has to be some frame of reference if 
 2. Specify controller input via the `MIDI From` dropdown menu on the track and select the midi channel below that
 3. Turn on monitoring
 4. Name the track (cmd + r)
+
+> I will use the idea of chains layered within racks to build all my presets.
+
+You can group the existing devices with a new one, you can add it to the chain, select all devices and hit `cmd + g` to group
+
+Grouping devices into a chain creates a new rack that contains that chain
+
+## Switching sounds within the song preset
+
+## Using clip automation to switch sounds
+
+MIDI track with chain selector automation envelope. Clips like this that have no media or audio in them an donly exist to perform other functions are often called dummy clips.
+
+## Using a macro to conserve CPU and select song presets
+
