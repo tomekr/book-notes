@@ -103,3 +103,45 @@ Replace the chain selector with the Rack Activator macro. This will do the chain
 
 ## Automating song presets at song start
 
+Use a Rack Activator macro to turn on/off instrument racks on song start. This can conserve CPU resources, especially if you have a lot of different parts/effects.
+
+
+## The Drumset as a MIDI controller
+
+### Ableton Drum presets
+
+The drum controller can act in much the same way as the keyboard controller we've been using up until this point, except the samples and device chains will be contained in `Drum Racks` instead of `Instrument Rocks`
+
+You can start with a generic drum rack (Drums > Drum Rack)
+
+Ableton will create a new midi track for the drum rack
+
+## Remote Control From Ableton
+
+### Guitar stations and Moog bass
+
+MIDI switching the patches from my keyboard using a "long MIDI cable"
+
+This switch can happen at the beginning of the song or several times per song if necessary. Sometimes 5 or 6 songs are used in a single song.
+
+At toko's station, she uses a mimimoog Voyager hooked into a guitar pedal board since she doubles on guitar and bass duties.
+
+The same MIDI cable allows me to play Toko's Moog. So when toko is busy playing a guitar part, I can take over and play the bass from her Moog Voyager, either with my feet or on my keyboard controller.
+
+MIDI was invented and standardized to allow for instruments to be connected together.
+
+The MIDI protocol can get archane and achaic pretty quickly.
+
+#### Program Change
+
+Program Change is one of it's most basic functions
+
+1. Create a MIDI track for the sole purpose of Program Change events
+2. Change the `MIDI From` dropdown to `No Input` just to make sure none of the input from the other controllers end up on that channel.
+3. Set the `MIDI To` dropdown to the interface that is being used to communicate with the external instrument. So from your MIDI interface, you connect a cable from MIDI OUT to the MIDI IN connection on the device. Set the channel (make sure both devices are set to the same channel).
+4. Create an empty MIDI clip on that MIDI channel/track by double clicking on an empty clip box.
+5. Turn off LOOP since it only needs to fire once.
+6. There is a program change section in the Notes box
+  ![pgr_ch](images/pgr_ch.png)
+7. Changing the program number changes the preset on the device, usually this is the only field you need to modify.
+8. 
